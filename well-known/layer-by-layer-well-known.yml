@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: none
+source: https://layerbylayer.com/
+name: Layer By Layer well-known probe
+description: 'Probe of the former Layer By Layer domain for RFC 8615 well-known resources.
+  The domain is parked: every path returns HTTP 200 with an identical lander redirect
+  stub (<script>window.location.href="/lander"</script>), so the 200 status codes below
+  are SOFT 404s and carry no real content. No well-known artifacts exist for this
+  provider. Recorded so future enrichment runs do not re-probe a dead host.'
+host: layerbylayer.com
+host_status: parked
+soft_404: true
+found: false
+probes:
+- path: /.well-known/security.txt
+  status: 200
+  soft_404: true
+  found: false
+  file: null
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+  found: false
+  file: null
+- path: /llms.txt
+  status: 200
+  soft_404: true
+  found: false
+  file: null
+notes: 'Layer By Layer was acquired by MakerBot (Stratasys) in November 2014 and no
+  longer operates an independent web presence. No openid-configuration, oauth-authorization-server,
+  or ai-plugin.json probes were recorded because the host answers every path with the
+  same parking stub, making per-path results meaningless.'
