@@ -1,22 +1,83 @@
 aid: layer-by-layer
-name: Layer by Layer
-description: Layer by Layer is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/layer-by-layer.png
+name: Layer By Layer
+description: 'Layer By Layer was a San Francisco 3D-printing software startup founded
+  in 2012 and part of Y Combinator''s Summer 2013 batch. It operated a marketplace
+  for buying, selling, and sharing printable 3D designs, and built streaming and digital
+  rights management technology that let licensed content partners distribute 3D-printable
+  intellectual property without handing over raw model files. MakerBot (Stratasys)
+  announced its acquisition of the company in November 2014 and folded the streaming
+  and DRM technology into the MakerBot Digital Store. The company no longer operates
+  independently: layerbylayer.com is a parked domain, and there is no developer portal,
+  documentation, public API, or GitHub organization to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/layer-by-layer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+x-backed-by-source: https://a16z.com/investment-list/
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: MakerBot (Stratasys)
+x-acquired-announced: '2014-11-13'
+x-acquisition-source: https://3dprintingindustry.com/news/makerbot-acquisition-layer-36425
+x-accelerator: Y Combinator (S13)
+x-founded: '2012'
+x-headquarters: San Francisco, California, United States
+x-founders:
+- Jonathan Schwartz
+- Max Friefeld
+- Graham Tremper
+- Dustin Kane
+- Becca Schwartz
+- Oliver Ortlieb
+x-former-website: http://layerbylayer.com
+x-website-status: parked
+x-api-surface: none
+x-enrichment-note: 'Enrichment pass 2026-07-19 found no live provider surface. The
+  former domain layerbylayer.com is parked and soft-404s every path (including /.well-known/*
+  and /llms.txt) with a lander redirect, so no well-known, llms.txt, or security.txt
+  artifacts exist. No GitHub organization, package-registry presence, OpenAPI, docs,
+  or status page were found. No artifacts were generated, because there is nothing
+  real to ground them in.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- 3D Printing
+- Additive Manufacturing
+- Marketplace
+- Digital Rights Management
+- Acquired
+- Y Combinator
 apis: []
+common:
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/layer-by-layer
+- type: Acquisition
+  url: https://3dprintingindustry.com/news/makerbot-acquisition-layer-36425
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/layer-by-layer
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
