@@ -52,7 +52,7 @@ x-enrichment-note: 'Enrichment pass 2026-07-19 found no live provider surface. T
   artifacts exist. No GitHub organization, package-registry presence, OpenAPI, docs,
   or status page were found. No artifacts were generated, because there is nothing
   real to ground them in.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
