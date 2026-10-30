@@ -64,30 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Layer By Layer was a San Francisco 3D-printing software startup founded in 2012 and part of
-Y Combinator's Summer 2013 batch. It ran a marketplace for buying, selling, and sharing
-printable 3D designs, and built streaming and digital rights management technology that let
-licensed content partners distribute 3D-printable intellectual property without handing over
-raw model files.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-MakerBot (Stratasys) announced its acquisition of the company in November 2014 and folded the
-streaming and DRM technology into the MakerBot Digital Store.
+Layer By Layer was a San Francisco 3D-printing software startup founded in 2012 and part of Y Combinator's Summer 2013 batch. It operated a marketplace for buying, selling, and sharing printable 3D designs, and built streaming and digital rights management technology that let licensed content partners distribute 3D-printable intellectual property without handing over raw model files. MakerBot (Stratasys) announced its acquisition of the company in November 2014 and folded the streaming and DRM technology into the MakerBot Digital Store. The company no longer operates independently: layerbylayer.com is a parked domain, and there is no developer portal, documentation, public API, or GitHub organization to enrich.
 
-- Status: **acquired** (MakerBot / Stratasys, announced 2014-11-13)
-- Accelerator: Y Combinator (S13)
-- Backed by: a16z (per the [a16z investment list](https://a16z.com/investment-list/))
-- Former website: `layerbylayer.com` — now a **parked domain**
+**Areas:** Company · 3D Printing · Marketplace · Digital Rights Management · Acquired · Y Combinator
 
-## Enrichment status
+## Layer By Layer on APIs.io (historical record)
 
-There is **no live provider surface** to enrich. The former domain soft-404s every path
-(including `/.well-known/*` and `/llms.txt`) with a parking-lander redirect, and there is no
-developer portal, documentation, public API, OpenAPI, package-registry presence, or GitHub
-organization. No artifacts were generated — see `well-known/layer-by-layer-well-known.yml`
-for the recorded negative probe so future runs do not re-probe a dead host.
+Everything profiled for Layer By Layer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/layer-by-layer/](https://apis.io/providers/layer-by-layer/)** — or go straight to one of the APIs or properties below.
 
-## References
+## API Evangelist rating
 
-- [Y Combinator company profile](https://www.ycombinator.com/companies/layer-by-layer)
-- [MakerBot acquisition coverage](https://3dprintingindustry.com/news/makerbot-acquisition-layer-36425)
-- [Crunchbase](https://www.crunchbase.com/organization/layer-by-layer)
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Layer By Layer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/layer-by-layer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
